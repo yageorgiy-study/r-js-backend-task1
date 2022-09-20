@@ -1,5 +1,5 @@
 import testManager from "simple-test-manager";
-import exampleTest from "./simpleTest";
+import exampleTest from "./simpleTest.test";
 
 testManager.addTests([
     exampleTest
