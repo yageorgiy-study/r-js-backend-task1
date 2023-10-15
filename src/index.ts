@@ -18,6 +18,14 @@ const ARRAY_OF_UNIQUE_VALUES = getArrayOfUniqueValues(N);
 const result = getRandomElements(ARRAY_OF_UNIQUE_VALUES, 5);
 console.log(result);
 
+/* Custom tests */
+console.log(getRandomElements(getArrayOfUniqueValues(1), 1));
+console.log(getRandomElements(getArrayOfUniqueValues(6), 1));
+console.log(getRandomElements(getArrayOfUniqueValues(10), 6));
+console.log(getRandomElements(getArrayOfUniqueValues(2), 3));
+console.log(getRandomElements(getArrayOfUniqueValues(10), 30));
+console.log(getRandomElements(getArrayOfUniqueValues(1), -1));
+
 
 //********************************************************************* 
 
